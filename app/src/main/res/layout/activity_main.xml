@@ -15,4 +15,14 @@
         android:text="@string/hello_world"
         android:textSize="20sp" />
 
+    <Button
+        android:id="@+id/startStopTimerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/messageTextView"
+        android:layout_alignRight="@+id/messageTextView"
+        android:layout_below="@+id/messageTextView"
+        android:layout_marginTop="46dp"
+        android:text="Start" />
+
 </RelativeLayout>
